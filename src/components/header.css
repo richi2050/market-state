@@ -1,0 +1,30 @@
+.header-style{
+  height:100vh; background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1516355082092-7c054bd0536a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb0dc621562bb611e5ab403938b5b502&auto=format&fit=crop&w=750&q=80);
+}
+
+.cont{
+  border: 6px solid white;
+}
+
+.btn-ra{
+   border-radius: 3px;
+}
+
+/*
+Este es la seccion de cartas de pago*/
+
+.paymentWrap {
+	padding: 50px;
+}
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 800px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 40px;
+	box-shadow: none;
+	position: relative;
+}

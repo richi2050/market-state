@@ -22,9 +22,7 @@ class Header extends Component {
                   </a>
                 </p>
       					<div className="btn-container-wrapper p-relative d-block  zindex-1">
-      						<a className="btn btn-link btn-lg   mt-md-3 mb-4 scroll align-self-center text-light" href="">
-
-      						    </a>
+      					
       					</div>
               </div>
 

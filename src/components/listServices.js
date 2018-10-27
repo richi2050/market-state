@@ -1,39 +1,34 @@
 import React, { Component } from 'react'
 import './header.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCreditCard } from '@fortawesome/free-solid-svg-icons'
+import { FaCreditCard, FaCcAmex, FaCcVisa, FaCcPaypal, FaCcMastercard } from 'react-icons/fa';
 
 class List extends Component {
   render() {
     return (
       <div>
         <section className="py-5">
-          <div class="paymentCont">
-						<div class="headingWrap">
-								<h3 class="headingTop text-center">Metodos de pago </h3>
+          <div className="paymentCont">
+						<div className="headingWrap">
+								<h1 className="headingTop text-center">Metodos de Pago </h1>
 						</div>
 
           <div>
             <div className="paymentWrap">
             <div className="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
                     <label className="btn paymentMethod ">
-                      <FontAwesomeIcon icon={ faCreditCard } size="6x"/>
+                      <FaCreditCard size={70}/>
                     </label>
                     <label className="btn paymentMethod">
-                      <FontAwesomeIcon icon={ faCreditCard } size="6x"/>
-
+                      <FaCcAmex size={70}/>
                     </label>
                     <label className="btn paymentMethod">
-                      <div className="method amex"></div>
-                      <input type="radio" name="options" />
+                      <FaCcVisa size={70}/>
                     </label>
                      <label className="btn paymentMethod">
-                      <div className="method vishwa"></div>
-                      <input type="radio" name="options" />
+                       <FaCcPaypal size={70}/>
                     </label>
                     <label className="btn paymentMethod">
-                      <div className="method ez-cash"></div>
-                      <input type="radio" name="options" />
+                      <FaCcMastercard size={70}/>
                     </label>
 
                 </div>
